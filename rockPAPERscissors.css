@@ -1,0 +1,139 @@
+#parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 78vh;
+    position: relative;
+}
+#parent::before {
+    content: "";
+    background-color: #3a7a4b;
+    position: absolute;
+    height: 100vh;
+    width: 85rem;
+    top: 0rem;
+    z-index: -2;
+    opacity: 1;
+}
+#heading{
+    color: beige;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 7rem;
+}
+
+#buttondiv {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+    gap: 2rem;
+    height: 17rem;
+    padding: 1rem;
+}
+#resetbtn{
+    display: inline-block;
+    margin-top: 3rem;
+    width: 14rem;
+    height: 10rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-family: cursive;
+    font-weight: bold;
+}
+#rockbtn {
+    border-radius: 2rem;
+    height: 11rem;
+    width: 11rem;
+}
+#paperbtn{
+    border-radius: 2rem;
+    height: 11rem;
+    width: 11rem;
+}
+#scissorsbtn{
+    border-radius: 2rem;
+    height: 11rem;
+    width: 11rem;
+}
+#rockimg {
+    height: 10rem;
+    width: 10rem;
+}
+.mousecursor{
+    cursor:pointer;
+}
+.resetbutton{
+    border: 2px double rgb(15, 15, 15);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(17, 17, 17);
+    background-color: rgb(13, 136, 236);
+}
+.scorecard{
+    font-family: cursive;
+    font-size: 3rem;
+    color: mintcream;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+}
+#smallimg {
+    height: 4rem;
+    margin: 2rem;
+    border: 3px double black;
+    border-radius: 0.7rem;
+}
+.modal-title {
+    margin-bottom: 0;
+    line-height: 1.5;
+    width: 27rem;
+    color: chocolate;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: cursive;
+}
+.modal-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: center!important;
+    padding: 1rem;
+    border-top: 1px solid #e9ecef;
+}
+.btn-secondary:hover {
+    color: black!important;
+    background-color: #79c0c3;
+    border-color: #545b62;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.btn-secondary {
+    color: black!important;
+    background-color: #ced4da;
+    border-color: #6c757d;
+    font-size: 1rem;
+    font-weight: bold!important;
+}
+#exampleModalLongTitle {
+    width: 30rem;
+    text-align: center;
+}
+.chances {
+    margin-left: 3rem;
+    color: blanchedalmond;
+}
+.chancescount {
+    margin-left: 1rem;
+    color: black;
+    font-size: 4rem;
+}
